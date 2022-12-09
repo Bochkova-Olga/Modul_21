@@ -34,7 +34,7 @@ def my_decorator(func):
     return wrapper
 
 
-decorator_variable = my_decorator(print_something())
+decorator_variable = my_decorator(print_something)
 decorator_variable()
 
 @my_decorator
